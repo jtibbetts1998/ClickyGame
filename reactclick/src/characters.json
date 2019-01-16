@@ -2,61 +2,73 @@
     {
         "id": 1,
         "name": "Walter White",
+        "about": "High school chemistry teacher turned into most wanted in the south west, struggles between the right choice and whats best for his family",
         "image": "./components/images/WalterWhite1.jpg"
     },
     {
         "id": 2,
         "name": "Skylar White",
+        "about": "Wife of Walter, very smart but can be problematic",
         "image": "./components/images/Skylar.jpg"
     },
     {
         "id": 3,
         "name": "Gus Fring",
+        "about": "Owner of Los Pollos Hermanos by day, drug lord by night. A personalfied version of 'a tale of two halves' ",
         "image": "./components/images/GusFring.jpg"
     },
     {
         "id": 4,
         "name": "Jesse Pinkman",
+        "about": "Former student of Walter, teaches Walter the street guidlines",
         "image": "./components/images/Pinkman.jpg"
     },
     {
         "id": 5,
         "name": "Hank",
+        "about": "Walter's in law and DEA agent. Arguably the reason Walt discovers this path",
         "image":"./components/images/Hank1.jpg"
     },
     {
         "id": 6,
         "name": "Mike",
+        "about": "Former cop who serves as security and hit man for Gus and sometimes Saul, keeps Walt and Jesse in check",
         "image":"./components/images/Mike.jpg"
     },
     {
         "id": 7,
         "name": "Hector",
+        "about": "Used to be a high ranking member of respected cartel, uncle of Tuco and the twins",
         "image": "./components/images/Hector.jpg"
     },
     {
         "id": 8,
         "name": "Teddy Bear",
+        "about": "Symbolic for loss of innocence",
         "image": "./components/images/TeddyBear.jpg"
     },
     {
         "id": 9,
         "name": "Saul Goodman",
+        "about": "Lawyer and advisor for the duo",
         "image":"./components/images/SaulGoodman.jpg"
     },
     {
         "id": 10,
         "name": "Tuco",
+        "about": "Psychotic kingpin and the duo's first major step into their journey",
         "image":"./components/images/Tuco1.jpg"
     },
     {
         "id": 11,
-        "name": "The Twins",
+        "name": "The Cousins",
+        "about": "Nephews of Hector and feared hitmen",
         "image":"./components/images/Twins.jpg"
     },
     {
         "id": 12,
         "name": "Walt Jr",
+        "about": "Son of Walter, unfortunately caught in the psychological crossfire of his reality",
         "image":"./components/images/WaltJr.jpg"
     }
 ]
