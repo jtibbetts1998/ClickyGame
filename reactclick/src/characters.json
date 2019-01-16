@@ -3,13 +3,13 @@
         "id": 1,
         "name": "Walter White",
         "about": "High school chemistry teacher turned into most wanted in the south west, struggles between the right choice and whats best for his family",
-        "image": "./components/images/WalterWhite1.jpg"
+        "image": "https://images.dog.ceo/components/images/WalterWhite1.jpg"
     },
     {
         "id": 2,
         "name": "Skylar White",
         "about": "Wife of Walter, very smart but can be problematic",
-        "image": "./components/images/Skylar.jpg"
+        "image": "https://images.dog.ceo/breeds//Skylar.jpg"
     },
     {
         "id": 3,
