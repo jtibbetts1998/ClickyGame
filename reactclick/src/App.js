@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import background from './components/images/Background1.jpg';
-import card from './components/card/card.js';
-import wrapper from './components/wrapper';
+import Card from './components/card/card.js';
+import Wrapper from './components/wrapper/index.js';
 import characters from './characters.json';
-import logo from './logo.svg';
+import Logo from './logo.svg';
 import './App.css';
 
 var aCStyle = {
-  fontSize: "12px",
+  fontSize: "20px",
   fontStyle: "italic",
   margin: "10px 10px 10px 10px",
   bottom: "4"
@@ -16,13 +16,16 @@ var aCStyle = {
 var sectionStyle = {
   width: "100%",
   height: "100%",
+  backgroundSize: "cover",
+  backgroundPosition: "center",
   backgroundImage: "url(" + background + ")",
+  backgroundRepeat: "no-repeat",
   color: "white",
   textShadow: "2px 2px #ff0000"
 };
 
 var fontStyle = {
-  fontSize: "12px",
+  fontSize: "20px",
   fontStyle: "italic"
 }
 
@@ -62,23 +65,23 @@ class App extends Component {
 
     return (
       <React.Fragment>
-        <wrapper>
+        <Wrapper>
           <section style={sectionStyle}>
             <center><h1>React Click</h1></center>
             <center><h6>I am the Danger</h6></center>
             <div className="container">
-              <ColoredLine color="blue"></ColoredLine>
+              <ColoredLine color="red"></ColoredLine>
             </div>
             <center style={fontStyle}><h6>Wins: {this.state.wins}</h6><h6>Loss: {this.state.loss}</h6></center>
             <h6 style={aCStyle}>Amount Clicked: {this.state.amountClicked} out of 12</h6>
             <div className="container">
               <ul>
-                <card characters={characters} />
+                <Card characters={characters} />
               </ul>
             </div>
 
           </section>
-        </wrapper>
+        </Wrapper>
       </React.Fragment>
     );
   }

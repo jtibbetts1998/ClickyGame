@@ -7,7 +7,7 @@ function addTotal() {
     console.log(amountClicked);
 };
 
-function card(props) {
+function Card(props) {
     return (
         props.characters.map(char => (
             <button key={char.id} clicked="no" className="button" onClick={addTotal}>
@@ -21,4 +21,4 @@ function card(props) {
     );
 }
 
-export default card;
+export default Card;
