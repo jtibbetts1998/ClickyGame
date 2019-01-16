@@ -29,41 +29,57 @@ var fontStyle = {
 
 const ColoredLine = ({ color }) => (
   <hr
-  style={{
-    color: color,
-    backgroundColor: color,
-    height: 0.2
-  }}
- />
+    style={{
+      color: color,
+      backgroundColor: color,
+      height: 0.2
+    }}
+  />
 );
 
 
 class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      wins: 0,
+      loss: 0,
+      amountClicked: 0
+    }
+
+    this.addTotal = this.addTotal.bind(this);
+  }
+
+  addTotal(e) {
+    var { amountClicked } = this.state.amountClicked;
+    this.setState({ amountClicked: amountClicked + e })
+    console.log(amountClicked)
+  }
+
+
   render() {
-  console.log("rendering");
+    console.log("rendering");
 
     return (
-    <React.Fragment>
+      <React.Fragment>
+        <wrapper>
+          <section style={sectionStyle}>
+            <center><h1>React Click</h1></center>
+            <center><h6>I am the Danger</h6></center>
+            <div className="container">
+              <ColoredLine color="blue"></ColoredLine>
+            </div>
+            <center style={fontStyle}><h6>Wins: {this.state.wins}</h6><h6>Loss: {this.state.loss}</h6></center>
+            <h6 style={aCStyle}>Amount Clicked: {this.state.amountClicked} out of 12</h6>
+            <div className="container">
+              <ul>
+                <card characters={characters} />
+              </ul>
+            </div>
 
-    
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-
-
+          </section>
+        </wrapper>
       </React.Fragment>
     );
   }
