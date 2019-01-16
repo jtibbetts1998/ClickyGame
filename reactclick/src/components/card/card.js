@@ -9,9 +9,9 @@ function addTotal() {
 
 function Card(props) {
     return (
-        props.characters.map(char => (
+        props.Characters.map(char => (
             <button key={char.id} clicked="no" className="button" onClick={addTotal}>
-                <div className="No sir">
+                <div className="Nope">
                     <div className="img-container">
                         <img alt={char.name} src={char.image} />
                     </div>
