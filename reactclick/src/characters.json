@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Walter White",
+        "image": "./components/images/WalterWhite1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Skylar White",
+        "image": "./components/images/Skylar.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Gus Fring",
+        "image": "./components/images/GusFring.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Jesse Pinkman",
+        "image": "./components/images/Pinkman.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Hank",
+        "image":"./components/images/Hank1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Mike",
+        "image":"./components/images/Mike.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Hector",
+        "image": "./components/images/Hector.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Teddy",
+        "image": "./components/images/TeddyBear.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Saul Goodman",
+        "image":"./components/images/SaulGoodman.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Tuco",
+        "image":"./components/images/Tuco1.jpg"
+    },
+    {
+        "id": 11,
+        "name": "The Twins",
+        "image":"./components/images/Twins.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Walt Jr",
+        "image":"./components/images/WaltJr.jpg"
+    }
+]

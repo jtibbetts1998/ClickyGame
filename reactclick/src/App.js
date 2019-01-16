@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import '.App.css';
 import background from './components/images/Background1.jpg';
 import card from './components/card/card.js';
 import wrapper from './components/wrapper';
-import characters from '.characters.json';
+import characters from './characters.json';
 import logo from './logo.svg';
 import './App.css';
 
