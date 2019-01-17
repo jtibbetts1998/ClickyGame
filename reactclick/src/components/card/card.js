@@ -1,12 +1,6 @@
 import React from "react";
 import "./card.css";
 
-function addTotal() {
-    var { amountClicked } = this.state.amountClicked;
-    this.setState({ amountClicked: amountClicked + 1 });
-    console.log(amountClicked);
-};
-
 const cardStyle = {
     width: '200px',
     height: '200px'

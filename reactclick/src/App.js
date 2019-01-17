@@ -58,6 +58,12 @@ class App extends Component {
     console.log(amountClicked)
   }
 
+  addTotal = () => {
+    var { amountClicked } = this.state.amountClicked;
+    this.setState({ amountClicked: amountClicked + 1 });
+    console.log(amountClicked);
+};
+
 
   render() {
     console.log("rendering");
