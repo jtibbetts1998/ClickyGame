@@ -52,18 +52,11 @@ class App extends Component {
     this.addTotal = this.addTotal.bind(this);
   }
 
-  addTotal(e) {
-    var { amountClicked } = this.state.amountClicked;
-    this.setState({ amountClicked: amountClicked + e })
+  addTotal() {
+    var { amountClicked } = this.state;
+    this.setState({ amountClicked: amountClicked + 1 })
     console.log(amountClicked)
   }
-
-  addTotal = () => {
-    var { amountClicked } = this.state.amountClicked;
-    this.setState({ amountClicked: amountClicked + 1 });
-    console.log(amountClicked);
-};
-
 
   render() {
     console.log("rendering");
@@ -81,7 +74,7 @@ class App extends Component {
             <h6 style={aCStyle}>Amount Clicked: {this.state.amountClicked} out of 12</h6>
             <div className="container">
               <ul>
-                <Card Characters={Characters} />
+                <Card Characters={Characters} yawn = {this.addTotal}/>
               </ul>
             </div>
 
